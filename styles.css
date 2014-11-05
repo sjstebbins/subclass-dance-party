@@ -4,24 +4,29 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-size: 100%;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: darkblue;
 }
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
+  text-decoration: none;
+  font-family: Arial;
+  color: black;
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background: rgba(255,255,255,.8);
 }
 .title{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+/*  border:10px solid red;
+  border-radius:10px;*/
   position:absolute;
 }
+
