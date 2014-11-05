@@ -22,11 +22,51 @@ body, a:link, a:visited, a:active{
   background: rgba(255,255,255,.8);
 }
 .title{
-  background-color: #777;
+  background-color:rgba(255,255,255,1);
 }
 .dancer{
-/*  border:10px solid red;
-  border-radius:10px;*/
   position:absolute;
 }
+.line{
+  margin-right: 90%;
+}
+.blinky{
+  background-image: url('http://4.bp.blogspot.com/-1n9dFwSMIcg/U1qWoBaN7mI/AAAAAAAAS9I/kmHE750tpvE/s1600/carltondancing2.gif');
+  width:360px;
+  height:500px;
+}
+.superchildren{
+  background-image: url('http://img1.wikia.nocookie.net/__cb20140527121456/creepypasta/images/2/2e/Transparent_dancing_super_heroes_for_your_blog.gif');
+  width:500px;
+  height:180px;
+}
+.fatboy{
+  background-image: url('http://i.imgur.com/ymU48Db.gif');
+  width:400px;
+  height:300px;
+}
+.chihuahua{
+  background-image: url('http://media.tumblr.com/28c845333add9f69aaabf4ae7fa3c95c/tumblr_inline_mnsnblaZsq1r3369k.gif');
+  width: 400px;
+  height: 300px;
+}
+.hammer{
+  background-image: url('http://media0.giphy.com/media/3s7nLx9Gxhf32/giphy.gif');
+  width: 180px;
+  height: 355px;
+}
 
+button{
+  margin-left: 10px;
+}
+button:hover{
+  background-color: red;
+}
+
+#disco{
+  margin-left: 40%;
+  top:0px;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+}

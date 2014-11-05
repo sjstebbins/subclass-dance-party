@@ -2,7 +2,8 @@
 var Dancer = function(top, left, timeBetweenSteps){
   this.timeBetweenSteps = timeBetweenSteps;
   // use jQuery to create an HTML <span> tag
-  this.$node = $('<span class="dancer"></span>');
+  // this.$node = $('<span class="dancer"></span>');
+  this.$node = $('<div class="dancer"></div>');
 
   // now that we have defined the this object, we can start setting up important parts of it by calling the methods we wrote
   // this one sets the position to some random default point within the body

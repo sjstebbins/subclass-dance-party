@@ -3,20 +3,29 @@
   <head>
     <title>Object Dance Party</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.11.2.custom/jquery-ui.css" />
     <script src="lib/jquery.js"></script>
+    <script src="lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
     <script src="src/dancer1.js"></script>
     <script src="src/dancer2.js"></script>
-  <body>  
+    <script src="src/newDancer1.js"></script>
+    <script src="src/hammer.js"></script>
+  </head>
+  <body>
     <div class="topbar">
-      <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">add a blinky dancer</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="Dancer1">add Dancer1</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="Dancer2">add Dancer2</a>
-
+      <button id='line'>Line Up</button>
+      <button id='background'>Change Background</button>
+      <span class="title">Dance Party</span>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="Carelton">Carelton</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="SuperChildren">Super Children</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="FatBoy">Fat Boy</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="Chihuahua">Chihuahua</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="Hammer">Hammer</a>
     </div>
-    <div class="background"></div>
+  <img id="disco" src='https://www.hendrix.edu/uploadedImages/Student_Organization_Websites/SOCO/disco-ball(2).gif'></img>
+  <div style="top: 20px;left:0px"><iframe width="20%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155677878&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
     <script src="src/init.js"></script>
   </body>
 </html>

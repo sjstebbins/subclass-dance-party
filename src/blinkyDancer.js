@@ -1,14 +1,13 @@
-var BlinkyDancer = function(top, left, timeBetweenSteps){
+var Carelton = function(top, left, timeBetweenSteps){
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img class="dancer" src="http://4.bp.blogspot.com/-1n9dFwSMIcg/U1qWoBaN7mI/AAAAAAAAS9I/kmHE750tpvE/s1600/carltondancing2.gif"></img>');
+  this.$node.addClass('blinky','dancer');
 };
 
-BlinkyDancer.prototype = Object.create(Dancer.prototype);
+Carelton.prototype = Object.create(Dancer.prototype);
 
-BlinkyDancer.prototype.constructor = BlinkyDancer;
+Carelton.prototype.constructor = Carelton;
 
-BlinkyDancer.prototype.step = function(){
-  console.log("goodbye");
+Carelton.prototype.step = function(){
     Dancer.prototype.step.call(this);
     this.$node.toggle();
 };
